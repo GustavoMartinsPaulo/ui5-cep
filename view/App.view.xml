@@ -1,0 +1,78 @@
+<mvc:View controllerName="sap.ui.cep.controller.App" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+	<App>
+		<pages>
+			<Page title="Busca CEP">
+				<content>
+					
+				<SearchField xmlns="sap.m" maxLength="9" value="{model:'view', path:'/searchTerm'}" placeholder="Digite um CEP válido..." id="srchField" search="onSearch"/>
+					
+				<Table noDataText="Faça uma pesquisa para obter valores" busy="false" id="table0" items="{/conteudo}">
+					<items>
+						<ColumnListItem>
+							<cells>
+								<Text text="{cep}"></Text>
+								<Text text="{logradouro}"></Text>
+								<Text text="{bairro}"></Text>
+								<Text text="{localidade}"></Text>
+								<Text text="{uf}"></Text>
+							</cells>
+						</ColumnListItem>
+					</items>
+					
+				    <columns>
+					
+				        <Column id="column0">
+					
+				            <header>
+					
+				                <Label text="CEP" id="label0"/>
+					
+				            </header>
+					
+				        </Column>
+					
+				        <Column id="column1">
+					
+				            <header>
+					
+				                <Label text="Logradouro" id="label1"/>
+					
+				            </header>
+					
+				        </Column>
+					
+				        <Column id="column2">
+					
+				            <header>
+					
+				                <Label text="Bairro" id="label2"/>
+					
+				            </header>
+					
+				        </Column>
+				        
+				        <Column id="column3">
+					
+				            <header>
+					
+				                <Label text="Cidade" id="label3"/>
+					
+				            </header>
+					
+				        </Column>
+				        
+				        <Column id="column4">
+					
+				            <header>
+					
+				                <Label text="UF" id="label4"/>
+					
+				            </header>
+					
+				        </Column></columns></Table>
+					
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

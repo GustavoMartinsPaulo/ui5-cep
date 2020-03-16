@@ -1,0 +1,35 @@
+{
+    "application": {
+        "id": "",
+        "title": "CEP Search",
+        "description": "The application allows you to search and display further information about a Brazilian Zip Code",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/",
+        "appUrl": "#ui5cep-Display",
+        "navigationComponentName": "sap.ui.cep",
+        "intentSemanticObject": "ui5-cep",
+        "intentAction": "Display",
+        "html5ApplicationName": "ui5cep",
+        "HCPParentApplicationName": ""
+    },
+    "assignment": {
+        "groups": [
+            "cbf04059-495b-4477-b73c-07c3612769c9"
+        ],
+        "contentPackages": [
+            "985cff4f-6948-43a0-a233-b932d1073255"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "StaticTile",
+        "title": "CEP Search",
+        "subtitle": "Search and display further information about a Brazilian Zip Code",
+        "searchKeywords": "CEP Search,Search and display further information about a Brazilian Zip Code",
+        "displayIconUrl": "sap-icon://addresses",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "",
+        "refreshInterval": ""
+    }
+}
