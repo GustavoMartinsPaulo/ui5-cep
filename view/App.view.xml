@@ -15,6 +15,7 @@
 								<Text text="{bairro}"></Text>
 								<Text text="{localidade}"></Text>
 								<Text text="{uf}"></Text>
+								<Text text="{ibge}"></Text>
 							</cells>
 						</ColumnListItem>
 					</items>
@@ -66,6 +67,16 @@
 				            <header>
 					
 				                <Label text="UF" id="label4"/>
+					
+				            </header>
+					
+				        </Column>
+				        
+				        <Column id="column5">
+					
+				            <header>
+					
+				                <Label text="IBGE" id="label5"/>
 					
 				            </header>
 					

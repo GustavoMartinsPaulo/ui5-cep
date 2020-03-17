@@ -23,7 +23,8 @@ sap.ui.define([
 							logradouro:this._oModel.getProperty("/logradouro"),
 							bairro:this._oModel.getProperty("/bairro"),
 							localidade:this._oModel.getProperty("/localidade"),
-							uf:this._oModel.getProperty("/uf")
+							uf:this._oModel.getProperty("/uf"),
+							ibge:this._oModel.getProperty("/ibge")
 						});
 						this._oModel.setProperty("/conteudo", enderecos);
 					}
